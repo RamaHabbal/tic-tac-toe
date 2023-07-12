@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.cell{
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+   height: 25px;
+}
