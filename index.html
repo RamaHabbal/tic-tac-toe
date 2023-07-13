@@ -10,34 +10,46 @@
 
 <body>
     <h1>Tic Tac Toe Game</h1>
-    <div>
+
+    <div class="inputs">
         <h3>Player 1 name</h3>
-        <input type="text" id="palyer1" placeholder="Enter your name">
+        <input type="text" id="player1" placeholder="Enter your name">
     </div>
-    <div>
+
+    <div class="inputs">
         <h3>Player 2 name</h3>
         <input type="text" id="player2" placeholder="Enter your name">
     </div>
-    <div class="box">
 
+    <div class="btns">
+    <button id="start">Start</button>
+    <button id="reset">Reset</button>
+    </div>
+
+    <div class="scorename">
+        <div id="scoreXname"></div>
+        <div id="scoreX"></div>
+        <div id="scoreOname"></div>
+        <div id="scoreO"></div>
+    </div>
+
+    <div class="box" id="box">
+
+        <div class="cell" id="0"></div>
         <div class="cell" id="1"></div>
         <div class="cell" id="2"></div>
+
         <div class="cell" id="3"></div>
-        
         <div class="cell" id="4"></div>
         <div class="cell" id="5"></div>
+
         <div class="cell" id="6"></div>
-        
         <div class="cell" id="7"></div>
         <div class="cell" id="8"></div>
-        <div class="cell" id="9"></div>
-      </div>
+    </div>
 
-      <button id="start">Start</button>
-      <button id="reset">Reset</button>
 
-      <div id="scoreX"></div>
-      <div id="scoreO"></div>
+    <div id="winner"></div>
 
     <script src="src/script.js"></script>
 </body>
